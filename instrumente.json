@@ -1,0 +1,34 @@
+[ "java.util.HashSet", [ [ "ex2.SetTobe", {
+  "producator" : "Roland",
+  "pret" : 4800.0,
+  "tipTobe" : [ "ex2.TipTobe", "ELECTRONICE" ],
+  "nrTobe" : 4,
+  "nrCinele" : 1
+} ], [ "ex2.Chitara", {
+  "producator" : "Fender",
+  "pret" : 2500.0,
+  "tipChitara" : [ "ex2.TipChitara", "ELECTRICA" ],
+  "nrCorzi" : 6
+} ], [ "ex2.SetTobe", {
+  "producator" : "Yamaha",
+  "pret" : 2900.0,
+  "tipTobe" : [ "ex2.TipTobe", "ACUSTICE" ],
+  "nrTobe" : 6,
+  "nrCinele" : 3
+} ], [ "ex2.SetTobe", {
+  "producator" : "Pearl",
+  "pret" : 3500.0,
+  "tipTobe" : [ "ex2.TipTobe", "ACUSTICE" ],
+  "nrTobe" : 5,
+  "nrCinele" : 2
+} ], [ "ex2.Chitara", {
+  "producator" : "Yamaha",
+  "pret" : 1800.0,
+  "tipChitara" : [ "ex2.TipChitara", "ACUSTICA" ],
+  "nrCorzi" : 12
+} ], [ "ex2.Chitara", {
+  "producator" : "Gibson",
+  "pret" : 3200.0,
+  "tipChitara" : [ "ex2.TipChitara", "ELECTRICA" ],
+  "nrCorzi" : 8
+} ] ] ]

@@ -1,0 +1,4 @@
+Suma: 7
+Media: 2.3333333333333335
+Minim: 1
+Maxim: 3

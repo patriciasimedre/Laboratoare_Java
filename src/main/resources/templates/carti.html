@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Lista cartilor</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-4">
+  <h1>Lista cartilor</h1>
+  <form method="post" action="operatii">
+    <input type="text" name="isbn" placeholder="ISBN..." class="form-control mb-2" />
+    <input type="text" name="titlu" placeholder="Titlu..." class="form-control mb-2" />
+    <input type="text" name="autor" placeholder="Autor..." class="form-control mb-2" />
+    <button type="submit" name="adauga" class="btn btn-primary">Adauga</button>
+    <button type="submit" name="modifica" class="btn btn-warning">Modifica</button>
+    <button type="submit" name="sterge" class="btn btn-danger">Sterge</button>
+    <button type="submit" name="filtreaza" class="btn btn-info">Filtreaza dupa autor</button>
+  </form>
+
+  <h3 th:text="${mesaj}" class="mt-3"></h3>
+  <table class="table table-bordered mt-4">
+    <thead>
+    <tr>
+      <th>ISBN</th>
+      <th>Titlu</th>
+      <th>Autor</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="carte : ${carti}">
+      <td th:text="${carte.isbn}"></td>
+      <td th:text="${carte.titlu}"></td>
+      <td th:text="${carte.autor}"></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>

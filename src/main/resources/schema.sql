@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS carte (
+    isbn VARCHAR(50) PRIMARY KEY,
+    titlu VARCHAR(255) NOT NULL,
+    autor VARCHAR(255) NOT NULL
+    );

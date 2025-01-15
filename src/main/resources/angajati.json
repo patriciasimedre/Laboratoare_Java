@@ -1,0 +1,62 @@
+[
+  {
+    "numele": "Ion Popescu",
+    "postul": "sef departament",
+    "dataAngajarii": [2020, 5, 10],
+    "salariu": 3500.0
+  },
+  {
+    "numele": "Maria Ionescu",
+    "postul": "director general",
+    "dataAngajarii": [2019, 4, 15],
+    "salariu": 5000.0
+  },
+  {
+    "numele": "Ioana Georgescu",
+    "postul": "programator",
+    "dataAngajarii": [2021, 7, 1],
+    "salariu": 2800.0
+  },
+  {
+    "numele": "Vasile Ion",
+    "postul": "sef birou",
+    "dataAngajarii": [2022, 4, 10],
+    "salariu": 2500.0
+  },
+  {
+    "numele": "Costin Pop",
+    "postul": "asistent manager",
+    "dataAngajarii": [2023, 2, 1],
+    "salariu": 2200.0
+  },
+  {
+    "numele": "Mihai Ene",
+    "postul": "director tehnic",
+    "dataAngajarii": [2018, 11, 20],
+    "salariu": 4500.0
+  },
+  {
+    "numele": "Anca Tudor",
+    "postul": "contabil sef",
+    "dataAngajarii": [2017, 4, 10],
+    "salariu": 3000.0
+  },
+  {
+    "numele": "Ionel Radu",
+    "postul": "programator junior",
+    "dataAngajarii": [2021, 6, 1],
+    "salariu": 2700.0
+  },
+  {
+    "numele": "Petru Sergiu",
+    "postul": "director adjunct",
+    "dataAngajarii": [2024, 4, 30],
+    "salariu": 4000.0
+  },
+  {
+    "numele": "Dana Pop",
+    "postul": "analist",
+    "dataAngajarii": [2019, 12, 15],
+    "salariu": 3200.0
+  }
+]

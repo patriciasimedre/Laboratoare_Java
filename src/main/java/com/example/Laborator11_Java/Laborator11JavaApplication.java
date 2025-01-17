@@ -9,3 +9,5 @@ public class Laborator11JavaApplication {
 		SpringApplication.run(Laborator11JavaApplication.class, args);
 	}
 }
+
+// http://localhost:8080/api/evenimente

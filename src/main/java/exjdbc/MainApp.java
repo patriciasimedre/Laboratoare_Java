@@ -24,7 +24,7 @@ public class MainApp {
     // Ajustează parametrii de conectare după nevoile tale (port, user, parola).
     private static final String URL = "jdbc:mysql://localhost:3306/lab8";
     private static final String USER = "root";
-    private static final String PASSWORD = "my-secret-pw";
+    private static final String PASSWORD = "";
 
     // Limite acceptate pentru vârstă
     private static final int MIN_VARSTA = 0;
